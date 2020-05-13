@@ -1,10 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+#This function is used to return a list where we store the matrix and inverse of the matrix. It creates a special matrix object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) 
-#This function is used to return a list where we store the matrix and inverse of the matrix. It creates a special matrix object that can cache its inverse.
   {
   m <- NULL   # Initializing our Matrix inverse as Null
   set <- function(y) {
